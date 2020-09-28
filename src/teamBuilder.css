@@ -1,0 +1,305 @@
+#team-builder-container {
+    display: flex;
+    height: 60vh;
+    justify-content: space-around;
+}
+
+#team-builder-pitch-container {
+}
+
+#teamGrid { 
+    height: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    background-color: #9ACC9A;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* 3-4-3 Formation  */
+
+.threeFourThreePlayerOne{
+   grid-row-start: 1;
+   grid-column-start: 2; 
+}
+
+.threeFourThreePlayerTwo{
+grid-row-start: 1;
+grid-column-start: 4; 
+}
+
+.threeFourThreePlayerThree{
+grid-row-start: 1;
+grid-column-start: 6; 
+}
+
+.threeFourThreePlayerFour{
+grid-row-start: 2;
+grid-column-start: 1; 
+}
+
+.threeFourThreePlayerFive{
+grid-row-start: 2;
+grid-column-start: 3; 
+}
+
+.threeFourThreePlayerSix{
+grid-row-start: 2;
+grid-column-start: 5; 
+}
+
+.threeFourThreePlayerSeven{
+grid-row-start: 2;
+grid-column-start: 7; 
+}
+
+.threeFourThreePlayerEight{
+grid-row-start: 3;
+grid-column-start: 2; 
+}
+
+.threeFourThreePlayerNine{
+grid-row-start: 3;
+grid-column-start: 4; 
+}
+
+.threeFourThreePlayerTen{
+grid-row-start: 3;
+grid-column-start: 6; 
+}
+
+.threeFourThreePlayerEleven{
+grid-row-start: 4;
+grid-column-start: 4; 
+}
+
+/* 3-5-2 Formation */
+
+.threeFiveTwoPlayerOne{
+grid-row-start: 1;
+grid-column-start: 3; 
+}
+
+.threeFiveTwoPlayerTwo{
+    grid-row-start: 1;
+    grid-column-start: 5; 
+}
+
+.threeFiveTwoPlayerThree{
+    grid-row-start: 2;
+    grid-column-start: 1; 
+}
+
+.threeFiveTwoPlayerFour{
+    grid-row-start: 2;
+    grid-column-start: 3; 
+}
+
+.threeFiveTwoPlayerFive{
+    grid-row-start: 2;
+    grid-column-start: 4; 
+}
+
+.threeFiveTwoPlayerSix{
+    grid-row-start: 2;
+    grid-column-start: 5; 
+}
+
+.threeFiveTwoPlayerSeven{
+    grid-row-start: 2;
+    grid-column-start: 7; 
+}
+
+.threeFiveTwoPlayerEight{
+    grid-row-start: 3;
+    grid-column-start: 2; 
+}
+
+.threeFiveTwoPlayerNine{
+    grid-row-start: 3;
+    grid-column-start: 4; 
+}
+
+.threeFiveTwoPlayerTen{
+    grid-row-start: 3;
+    grid-column-start: 6; 
+}
+
+.threeFiveTwoPlayerEleven{
+    grid-row-start: 4;
+    grid-column-start: 4; 
+}
+
+
+/* 4-4-2 Formation */
+
+.fourFourTwoPlayerOne{
+    grid-row-start: 1;
+    grid-column-start: 3; 
+    }
+    
+.fourFourTwoPlayerTwo{
+    grid-row-start: 1;
+    grid-column-start: 5; 
+}
+
+.fourFourTwoPlayerThree{
+    grid-row-start: 2;
+    grid-column-start: 1; 
+}
+
+.fourFourTwoPlayerFour{
+    grid-row-start: 2;
+    grid-column-start: 3; 
+}
+
+.fourFourTwoPlayerFive{
+    grid-row-start: 2;
+    grid-column-start: 5; 
+}
+
+.fourFourTwoPlayerSix{
+    grid-row-start: 2;
+    grid-column-start: 7; 
+}
+
+.fourFourTwoPlayerSeven{
+    grid-row-start: 3;
+    grid-column-start:1; 
+}
+
+.fourFourTwoPlayerEight{
+    grid-row-start: 3;
+    grid-column-start: 3; 
+}
+
+.fourFourTwoPlayerNine{
+    grid-row-start: 3;
+    grid-column-start: 5; 
+}
+
+.fourFourTwoPlayerTen{
+    grid-row-start: 3;
+    grid-column-start: 7; 
+}
+
+.fourFourTwoPlayerEleven{
+    grid-row-start: 4;
+    grid-column-start: 4; 
+}
+
+/* 4-3-3 Formation */
+
+.fourThreeThreePlayerOne{
+    grid-row-start: 1;
+    grid-column-start: 2; 
+    }
+    
+.fourThreeThreePlayerTwo{
+    grid-row-start: 1;
+    grid-column-start: 4; 
+}
+
+.fourThreeThreePlayerThree{
+    grid-row-start: 1;
+    grid-column-start: 6; 
+}
+
+.fourThreeThreePlayerFour{
+    grid-row-start: 2;
+    grid-column-start: 2; 
+}
+
+.fourThreeThreePlayerFive{
+    grid-row-start: 2;
+    grid-column-start: 4; 
+}
+
+.fourThreeThreePlayerSix{
+    grid-row-start: 2;
+    grid-column-start: 6; 
+}
+
+.fourThreeThreePlayerSeven{
+    grid-row-start: 3;
+    grid-column-start:1; 
+}
+
+.fourThreeThreePlayerEight{
+    grid-row-start: 3;
+    grid-column-start: 3; 
+}
+
+.fourThreeThreePlayerNine{
+    grid-row-start: 3;
+    grid-column-start: 5; 
+}
+
+.fourThreeThreePlayerTen{
+    grid-row-start: 3;
+    grid-column-start: 7; 
+}
+
+.fourThreeThreePlayerEleven{
+    grid-row-start: 4;
+    grid-column-start: 4; 
+}
+
+/* 4-2-3 Formation */
+
+.fourTwoThreePlayerOne{
+    grid-row-start: 1;
+    grid-column-start: 2; 
+    }
+    
+.fourTwoThreePlayerTwo{
+    grid-row-start: 1;
+    grid-column-start: 4; 
+}
+
+.fourTwoThreePlayerThree{
+    grid-row-start: 1;
+    grid-column-start: 6; 
+}
+
+.fourTwoThreePlayerFour{
+    grid-row-start: 2;
+    grid-column-start: 2; 
+}
+
+.fourTwoThreePlayerFive{
+    grid-row-start: 2;
+    grid-column-start: 4; 
+}
+
+.fourTwoThreePlayerSix{
+    grid-row-start: 2;
+    grid-column-start: 6; 
+}
+
+.fourTwoThreePlayerSeven{
+    grid-row-start: 3;
+    grid-column-start:1; 
+}
+
+.fourTwoThreePlayerEight{
+    grid-row-start: 3;
+    grid-column-start: 3; 
+}
+
+.fourTwoThreePlayerNine{
+    grid-row-start: 3;
+    grid-column-start: 5; 
+}
+
+.fourTwoThreePlayerTen{
+    grid-row-start: 3;
+    grid-column-start: 7; 
+}
+
+.fourTwoThreePlayerEleven{
+    grid-row-start: 4;
+    grid-column-start: 4; 
+}
