@@ -1,0 +1,18 @@
+.player-thumbnail-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    /* grid-template-rows: 2fr; */
+}
+
+.player-thumbnail-photo {
+    width: 5em;
+}
+
+.player-thumbnail-name {
+    grid-column: 2 / 4;
+}
+
+.player-thumbnail-notes {
+    /* grid-row: 2; */
+    grid-column: 2 / 4;
+}

@@ -5,6 +5,18 @@
 }
 
 #team-builder-pitch-container {
+    width: 60%;
+}
+
+#team-builder-players-container {
+    width: 20%;
+    height: 60vh;
+    overflow-y: scroll;
+}
+
+.team-builder-players-container {
+    height: 40vh;
+    
 }
 
 #teamGrid { 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import { PlayerList } from '../Components'
 import '../Styles/teamBuilder.css'
 
 export default class TeamBuilderContainer extends Component {
@@ -71,8 +72,12 @@ export default class TeamBuilderContainer extends Component {
           </div>
         </div>
         <div id='team-builder-players-container'>
-          
-          </div>
+            <h1>Players</h1>
+            <p>Drag and drop the player image into the desired position</p>
+            <div className='team-builder-players-list'>
+              <PlayerList></PlayerList>
+            </div>  
+        </div>
       </div>
     )
   }

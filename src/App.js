@@ -6,7 +6,7 @@ import { NotFound404 } from './Components';
 
 class App extends Component {
     state = {
-        players:{},
+        players:[],
         teamName:'',
         teams:{},
         captainName:'Jose',
