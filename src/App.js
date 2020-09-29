@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { TeamBuilderContainer } from './Containers';
+import { DragTestContainer, TeamBuilderContainer } from './Containers';
 import { NotFound404 } from './Components';
 
 
@@ -30,7 +30,9 @@ class App extends Component {
                 <Route exact path="/" render={() => <h1 id="welcome">Welcome {this.state.captainName}</h1>} />
   
                 {/* This way for component lifecycle */}
-                <Route path="/teambuilder" component={TeamBuilderContainer} players={this.state.players} />
+                {/* <Route path="/teambuilder" component={TeamBuilderContainer} players={this.state.players} /> */}
+
+                {/* <Route path="/dnd" component={DragTestContainer} /> */}
 
                 <Route component={NotFound404} />
               </Switch>

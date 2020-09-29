@@ -4,9 +4,6 @@ import '../Styles/teamBuilder.css'
 
 export default class TeamBuilderContainer extends Component {
 
-  componentDidMount(){  console.log('que?');}
-
-
   state = {
     formation: 'formationOne',
     playerOne: 'threeFourThreePlayerOne',
@@ -58,7 +55,7 @@ export default class TeamBuilderContainer extends Component {
             </select>
           </div>
           <div id="teamGrid" className={this.state.formation}>
-            <div className={this.state.playerOne} >playerOne</div>
+            <div className={this.state.playerOne} > playerOne </div>
             <div className={this.state.playerTwo} >playerTwo</div>
             <div className={this.state.playerThree} >playerThree</div>
             <div className={this.state.playerFour} >playerFour</div>
