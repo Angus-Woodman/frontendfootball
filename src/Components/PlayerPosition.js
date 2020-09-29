@@ -19,6 +19,7 @@ export default class PlayerPosition extends Component {
         return (
             <div
                 id={this.props.id}
+                className={this.props.className}
                 onDrop={this.drop}
                 onDragOver= {this.dragOver}
             >

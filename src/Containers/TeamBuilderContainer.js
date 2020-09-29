@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { PlayerList } from '../Components'
+import { PlayerList, PlayerPosition } from '../Components'
 import '../Styles/teamBuilder.css'
 
 export default class TeamBuilderContainer extends Component {
@@ -55,17 +55,17 @@ export default class TeamBuilderContainer extends Component {
             </select>
           </div>
           <div id="teamGrid" className={this.state.formation}>
-            <div className={this.state.playerOne} > playerOne </div>
-            <div className={this.state.playerTwo} >playerTwo</div>
-            <div className={this.state.playerThree} >playerThree</div>
-            <div className={this.state.playerFour} >playerFour</div>
-            <div className={this.state.playerFive} >playerFive</div>
-            <div className={this.state.playerSix} >playerSix</div>
-            <div className={this.state.playerSeven} >playerSeven</div>
-            <div className={this.state.playerEight} >playerEight</div>
-            <div className={this.state.playerNine} >playerNine</div>
-            <div className={this.state.playerTen} >playerTen</div>
-            <div className={this.state.playerEleven} >playerEleven</div>
+            <PlayerPosition id="player-position-1" className={this.state.playerOne} ></PlayerPosition>
+            <PlayerPosition id="player-position-2" className={this.state.playerTwo} ></PlayerPosition>
+            <PlayerPosition id="player-position-3" className={this.state.playerThree} ></PlayerPosition>
+            <PlayerPosition id="player-position-4" className={this.state.playerFour} ></PlayerPosition>
+            <PlayerPosition id="player-position-5" className={this.state.playerFive} ></PlayerPosition>
+            <PlayerPosition id="player-position-6" className={this.state.playerSix} ></PlayerPosition>
+            <PlayerPosition id="player-position-7" className={this.state.playerSeven} ></PlayerPosition>
+            <PlayerPosition id="player-position-8" className={this.state.playerEight} ></PlayerPosition>
+            <PlayerPosition id="player-position-9" className={this.state.playerNine} ></PlayerPosition>
+            <PlayerPosition id="player-position-10" className={this.state.playerTen} ></PlayerPosition>
+            <PlayerPosition id="player-position-11" className={this.state.playerEleven} ></PlayerPosition>
           </div>
         </div>
         <div id='team-builder-players-container'>

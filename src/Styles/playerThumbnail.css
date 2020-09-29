@@ -5,7 +5,12 @@
 }
 
 .player-thumbnail-photo {
+    display: block;
     width: 5em;
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
 }
 
 .player-thumbnail-name {

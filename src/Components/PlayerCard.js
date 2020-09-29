@@ -3,16 +3,16 @@ import React, { Component } from 'react'
 export default class PlayerCard extends Component {
 
     dragStart = e => {
-
-        e.dataTransfer.setData('player_id', e.target.id);
+        const target = e.target;
+        e.dataTransfer.setData('player_id', target.id);
 
         setTimeout(() => {
-            e.target.style.display = "none"
-        }, 0)
+            target.style.display = 'none'
+        }, 0);
     };
 
     dragOver = e => {
-        e.stopPropogation();
+        e.stopPropagation();
     }
 
     render() {

@@ -117,7 +117,7 @@ export default class PlayerList extends Component {
                 {this.state.players.map((player, idx) => (
               <PlayerThumbnail
                 idx={idx}
-                key={idx}
+                id={idx}
                 photo={player.photo}
                 firstName={player.firstName}
                 lastName={player.lastName}

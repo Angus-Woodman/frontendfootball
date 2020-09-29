@@ -32,6 +32,7 @@
 /* 3-4-3 Formation  */
 
 .threeFourThreePlayerOne{
+    display: block;
    background-color: ivory;
    height: 100%;
    width: 100%;

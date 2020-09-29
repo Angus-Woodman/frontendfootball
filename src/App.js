@@ -29,10 +29,9 @@ class App extends Component {
 
                 <Route exact path="/" render={() => <h1 id="welcome">Welcome {this.state.captainName}</h1>} />
   
-                {/* This way for component lifecycle */}
-                {/* <Route path="/teambuilder" component={TeamBuilderContainer} players={this.state.players} /> */}
+                <Route path="/teambuilder" component={TeamBuilderContainer} players={this.state.players} />
 
-                {/* <Route path="/dnd" component={DragTestContainer} /> */}
+                <Route path="/dnd" component={DragTestContainer} />
 
                 <Route component={NotFound404} />
               </Switch>
